@@ -15,7 +15,11 @@
     border : 2px solid black;
     border-radius : 2px;
     padding : 4px;
-}   
+}  
+
+.hoveredDiv {
+    background-color: yellowgreen;
+}
 /* 
 .row1 {
     justify-content: space-between;

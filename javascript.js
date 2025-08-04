@@ -13,6 +13,12 @@ function createGrid() {
             innerDiv.classList.toggle(`row${i}`);
             innerDiv.classList.toggle(`col${j}`);
             innerDiv.setAttribute("id", `divR${i}C${j}`);
+            innerDiv.addEventListener('mouseenter', () => {
+                innerDiv.classList.add('hoveredDiv');
+            });
+            // innerDiv.addEventListener('mouseleave', () => {
+            //     innerDiv.classList.remove('hoveredDiv');
+            // });
             div.appendChild(innerDiv);
         } 
     }
